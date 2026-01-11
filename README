@@ -1,6 +1,24 @@
 # Customer Churn Prediction System
 
-This project predicts customer churn using a machine learning model and provides a web interface for predictions.
+This project is a Customer Churn Prediction System built using AI/ML techniques. It predicts whether a customer is likely to leave (churn) based on their account information and usage patterns. The system consists of:
+
+- Backend: FastAPI application serving predictions via an API.
+
+- Frontend: Streamlit app for interactive input and real-time predictions.
+
+- Model: Random Forest Classifier trained on real customer data.
+
+## Problem It Solves
+
+Customer churn is a major issue for companies in telecom, banking, subscription services, and more. Losing customers means lost revenue.
+
+This system helps businesses:
+
+- Identify at-risk customers before they leave.
+
+- Make data-driven retention decisions.
+
+- Reduce costs of acquiring new customers by focusing on retention.
 
 ## Folder Structure
 
