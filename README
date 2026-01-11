@@ -54,7 +54,7 @@ Open the link provided in the terminal to access the web app
 ## Training a New Model
 
 If you want to retrain the model:
-</pre> cd model
+<pre> cd model
 python train.py
 </pre>
 This will save a new model to saved_models/churn_model.pkl
