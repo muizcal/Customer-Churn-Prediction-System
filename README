@@ -1,0 +1,67 @@
+# Customer Churn Prediction System
+
+This project predicts customer churn using a machine learning model and provides a web interface for predictions.
+
+## Folder Structure
+
+Customer Churn Prediction System/
+├─ app/ <- FastAPI backend
+│ └─ main.py
+├─ model/ <- Training scripts
+│ └─ train.py
+├─ saved_models/ <- Trained models
+│ └─ churn_model.pkl
+├─ data/ <- CSV datasets
+│ └─ churn.csv
+└─ frontend/ <- Streamlit frontend
+└─ app.py
+
+
+
+
+## Backend (FastAPI)
+
+### Install dependencies
+<pre> pip install -r requirements.txt </pre>
+
+## Run the API
+<pre> cd app
+uvicorn main:app --reload
+</pre>
+The API will be available at http://127.0.0.1:8000.
+
+## Frontend (Streamlit)
+Run the frontend
+<pre> cd frontend
+streamlit run app.py
+</pre>
+
+Open the link provided in the terminal to access the web app
+
+## Usage
+
+- Input customer data in the frontend form.
+
+- Click Predict.
+
+- The app will return:
+
+- Churn: Predicted class (Yes / No)
+
+- Probability: Churn probability
+
+## Training a New Model
+
+If you want to retrain the model:
+</pre> cd model
+python train.py
+</pre>
+This will save a new model to saved_models/churn_model.pkl
+
+## Notes
+
+- Make sure the API is running before using the frontend.
+
+- Only the following columns are used for prediction: ["gender", "SeniorCitizen", "Partner", "Dependents", "tenure", "MonthlyCharges", "TotalCharges"]
+
+## Docker setup is optional for this project.
