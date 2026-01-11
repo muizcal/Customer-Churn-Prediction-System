@@ -1,6 +1,6 @@
-# Customer Churn Prediction System
+# **Customer Churn Prediction System**
 
-This project is a Customer Churn Prediction System built using AI/ML techniques. It predicts whether a customer is likely to leave (churn) based on their account information and usage patterns. The system consists of:
+### This project is a Customer Churn Prediction System built using AI/ML techniques. It predicts whether a customer is likely to leave (churn) based on their account information and usage patterns. The system consists of:
 
 - Backend: FastAPI application serving predictions via an API.
 
@@ -82,4 +82,4 @@ This will save a new model to saved_models/churn_model.pkl
 
 - Only the following columns are used for prediction: ["gender", "SeniorCitizen", "Partner", "Dependents", "tenure", "MonthlyCharges", "TotalCharges"]
 
-## Docker setup is optional for this project.
+## Docker setup is optional for this project
