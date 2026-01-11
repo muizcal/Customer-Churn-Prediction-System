@@ -20,23 +20,6 @@ This system helps businesses:
 
 - Reduce costs of acquiring new customers by focusing on retention.
 
-## Folder Structure
-
-Customer Churn Prediction System/
-├─ app/ <- FastAPI backend
-│ └─ main.py
-├─ model/ <- Training scripts
-│ └─ train.py
-├─ saved_models/ <- Trained models
-│ └─ churn_model.pkl
-├─ data/ <- CSV datasets
-│ └─ churn.csv
-└─ frontend/ <- Streamlit frontend
-└─ app.py
-
-
-
-
 ## Backend (FastAPI)
 
 ### Install dependencies
